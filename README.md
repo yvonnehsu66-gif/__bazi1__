@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 子平八字專業排盤系統
 
-# Run and deploy your AI Studio app
+React + Vite 應用，提供八字排盤與命理分析功能。
 
-This contains everything you need to run your app locally.
+## 快速開始
 
-View your app in AI Studio: https://ai.studio/apps/79187033-fecf-4753-9799-c0f42353f5b3
+**環境需求:** Node.js 18+
 
-## Run Locally
+### 安裝
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+```
 
+### 設定環境變數
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+建立 `.env` 檔案:
+
+```
+GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+### 開發
+
+```bash
+npm run dev
+```
+
+應用將在 http://localhost:3000 執行
+
+### 建置
+
+```bash
+npm run build
+```
